@@ -20,7 +20,7 @@ OR using GitHub desktop. This means all your work wont change what the current w
 5. Everyone can check your work from here, and GitHub will show any potential conflicts. If there is none we can merge them right away. If there are some we can check easily.
 
 ## Workflow once your branch works
-1. Everytime you start working on the project do a git pull to get the latest changes from everyone else.
+1. Everytime you start working after your pull request has been submitted and approved you need to first do a git fetch and a git rebase origin/main to get the latest changes from everyone else.
 2. Add your work to your branch
 3. Commit and push your work to your branch
 4. go to github.com to our repository and create a pull request in the format main <-- (your branch)
