@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"expanded":false,"name":"enemy path test","order":1,"parentId":0,"scrollX":819,"scrollY":448},
+{"id":1,"expanded":true,"name":"enemy path test","order":1,"parentId":0,"scrollX":819,"scrollY":448},
 {"id":2,"expanded":false,"name":"enemy path test l2","order":2,"parentId":1,"scrollX":832,"scrollY":640},
-{"id":3,"expanded":false,"name":"Hub","order":3,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":3,"expanded":false,"name":"Hub","order":3,"parentId":0,"scrollX":722,"scrollY":497.3333333333333},
 {"id":4,"expanded":false,"name":"Level 1","order":4,"parentId":0,"scrollX":722,"scrollY":497.3333333333333}
 ]
