@@ -9,5 +9,6 @@ null,
 {"id":7,"expanded":true,"name":"MAP007","order":7,"parentId":0,"scrollX":612,"scrollY":384.6666666666667},
 {"id":8,"expanded":true,"name":"Audio/Dialoge Test","order":8,"parentId":7,"scrollX":1092,"scrollY":597.3333333333334},
 {"id":9,"expanded":false,"name":"ingame UI test","order":9,"parentId":0,"scrollX":1092,"scrollY":597.3333333333334},
-{"id":10,"expanded":false,"name":"DashCool","order":10,"parentId":0,"scrollX":1092,"scrollY":597.3333333333334}
+{"id":10,"expanded":false,"name":"DashCool","order":10,"parentId":0,"scrollX":1092,"scrollY":597.3333333333334},
+{"id":11,"expanded":false,"name":"Stunned","order":11,"parentId":0,"scrollX":832,"scrollY":640}
 ]
