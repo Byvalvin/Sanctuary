@@ -16,18 +16,18 @@ Khas.Lighting.Settings = {};
 Khas.Lighting.Addons = {};
 /*:
  * @plugindesc [4.2] Adds lighting and real-time shadows to your game.
- * 
+ *
  * @author Nilo K. (Khas - arcthunder.blogspot.com)
- * 
+ *
  * @param Custom Blending
  * @desc [ON/OFF] Uses a custom light blending equation.
- * This should match your game's graphic style.  
+ * This should match your game's graphic style.
  * @default ON
  *
  * @param Transfer Reset
  * @desc [ON/OFF] Ambient light is set to 100/ffffff after transfering.
  * @default OFF
- * 
+ *
  * @param Auto Battle Lighting
  * @desc [ON/OFF] Battles' lighting will match the current
  * ambient light. Lights are added for battlers.
@@ -51,14 +51,14 @@ Khas.Lighting.Addons = {};
  * @requiredAssets img/lights/tungsten
  * @requiredAssets img/lights/white
  * @requiredAssets img/lights/yellow
- * 
- * @help - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ *
+ * @help - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  *  * [MV] Khas Advanced Lighting
- * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  *  * By Nilo K. (Khas)
  *  * Version 4.2
  *  * Released on 09.30.2017
- * 
+ *
  *  * Social Media
  * Blog: arcthunder.blogspot.com
  * Twitter: twitter.com/arcthunder
@@ -66,53 +66,53 @@ Khas.Lighting.Addons = {};
  *
  *  * Support for this plugin at RPG Maker Web forums
  * forums.rpgmakerweb.com/index.php?threads/khas-advanced-lighting.77679/
- * 
- * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  *  * Terms of Use
- * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
- * If you want to use this plugin with a free RPG Maker game, you can do it for 
- * free and there's no need to contact me. I only ask you to give credit to 
- * "Khas" or "Khas Custom Scripts" somewhere in your game. You may include my 
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * If you want to use this plugin with a free RPG Maker game, you can do it for
+ * free and there's no need to contact me. I only ask you to give credit to
+ * "Khas" or "Khas Custom Scripts" somewhere in your game. You may include my
  * blog url if you want.
- * 
- * This plugin is NOT FREE for COMMERCIAL use. If you want to use it on a 
- * commercial title (any game that you may sell), you must pay a one-time 
+ *
+ * This plugin is NOT FREE for COMMERCIAL use. If you want to use it on a
+ * commercial title (any game that you may sell), you must pay a one-time
  * $15 USD fee (payable via PayPal only - please send me an e-mail, see the
  * Contact page on my blog). This license covers commercial use for your
  * current and future projects, and it allows you to use all my plugins.
- * 
- * Please note that this plugin is provided “as is”, without warranty of any 
- * kind. You are responsible for testing it and checking if it’s compatible 
- * with your game. In no event shall the author of this plugin be liable for 
- * any claim, damages or other liability, whether in an action of contract, 
- * tort or otherwise, arising from, out of or in connection with the software 
+ *
+ * Please note that this plugin is provided “as is”, without warranty of any
+ * kind. You are responsible for testing it and checking if it’s compatible
+ * with your game. In no event shall the author of this plugin be liable for
+ * any claim, damages or other liability, whether in an action of contract,
+ * tort or otherwise, arising from, out of or in connection with the software
  * or the use or other dealings in the software.
- * 
- * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  *  * Instructions
- * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  * Please check the complete tutorial at my blog:
  * arcthunder.blogspot.com/p/tutorial-advanced-lighting.html
  *
- * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  *  * Share feedback / Get help
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  * You may give feedback or get help at RPG Maker Web:
  * forums.rpgmakerweb.com/index.php?threads/khas-advanced-lighting.77679/
- * 
- * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  *  * Log
- * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  *  * Version 4.2 (09.30.2017)
  * Fixed "Cannot read property 'length' of undefined" after MV Update 1.5.1
  * Fixed light size without shadows problem
  * Fixed other light size problems
- * 
+ *
  *  * Version 4.0 (08.20.2017)
  * Added real-time shadows
  * Regions now set map height (divided by 10)
  * Added [light_shadows on/off] command
- * Added cast_shadows:true/false property (default: true) 
+ * Added cast_shadows:true/false property (default: true)
  *
  *  * Version 3.1 (08.19.2017)
  * SetEnemyLight and SetActorLight now accept light offset
@@ -129,7 +129,7 @@ Khas.Lighting.Addons = {};
  * Added improved tinting
  * Added colored ambient light
  * Fixed offset bug (same offset in two pages)
- * Added [smooth_light id d] command 
+ * Added [smooth_light id d] command
  * Added save/load state commands (SaveAmbientLight X/LoadAmbientLight X [T])
  * Requires KhasGraphics 1.1 (updated)
  * Compatibility add-on with orange time system
@@ -149,7 +149,7 @@ Khas.Lighting.Addons = {};
  *
  *  * Version 1.1 (03.03.2017)
  * MV updated to 1.3.5
- * Requires Khas Core 1.2 
+ * Requires Khas Core 1.2
  * Added compatibility with zoom controls (zoom in only!)
  * Added compatibility with different tile sizes
  * Added Pixi.js version checking (requires v3 or later)
@@ -158,18 +158,18 @@ Khas.Lighting.Addons = {};
  * Fixed lighting/fog being applied to pictures
  * Performance tweaks
  * Fixed shader problems with opacity and exposure
- * 
+ *
  *  * Version 1.0.1 (01.24.2017)
  * Fixed inverted lighting/fog on menu screen
- * 
+ *
  *  * Version 1.0 (01.20.2017)
  * First release!
- * 
- * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  */;
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Lights
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Khas.Lighting.LIGHTS = {
     // ARTIFICIAL
     halogen: {
@@ -185,20 +185,20 @@ Khas.Lighting.LIGHTS = {
     tungsten: {
         fileName: "tungsten",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     fluorescent: {
         fileName: "fluorescent",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     broken: {
-        fileName: "halogen", 
+        fileName: "halogen",
         intensity: 60, variation: 30,
         offset_x: 0, offset_y: 0
     },
     flashlight: {
-        fileName: "flashlight", 
+        fileName: "flashlight",
         intensity: 100, variation: 0,
         offset_x: {2: 0, 4: 0, 6: 0, 8: 0 }, offset_y: {2: 0, 4: 0, 6: 0, 8: 0 },
         syncWithDirection: true
@@ -207,117 +207,117 @@ Khas.Lighting.LIGHTS = {
     candle: {
         fileName: "candle",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     // TORCH
     torch: {
         fileName: "torch",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     torch_big: {
         fileName: "torch",
         intensity: 80, variation: 80, size: 150,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     white_torch: {
         fileName: "white",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     red_torch: {
         fileName: "red",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     green_torch: {
         fileName: "green",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     blue_torch: {
         fileName: "blue",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     pink_torch: {
         fileName: "pink",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     cyan_torch: {
         fileName: "cyan",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     yellow_torch: {
         fileName: "yellow",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     purple_torch: {
         fileName: "purple",
         intensity: 80, variation: 20,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
-    // COLORED 
+    // COLORED
     white: {
         fileName: "white",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     red: {
         fileName: "red",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     green: {
         fileName: "green",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     blue: {
         fileName: "blue",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     pink: {
         fileName: "pink",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     cyan: {
         fileName: "cyan",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     yellow: {
         fileName: "yellow",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     purple: {
         fileName: "purple",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
 	torch1: {
         fileName: "torch",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
     // TEST
     test: {
         fileName: "test",
         intensity: 100, variation: 0,
-        offset_x: 0, offset_y: 0  
+        offset_x: 0, offset_y: 0
     },
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Custom Lights - Begin
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 /*
-In order to create custom lights, copy any of the lights above and add them below. Check the two templates 
-explained here and edit the copied light to achieve the effect you're looking for. 
+In order to create custom lights, copy any of the lights above and add them below. Check the two templates
+explained here and edit the copied light to achieve the effect you're looking for.
 
 If you want to use new light images, make sure to add the following line after the other requiredAssets tags:
 @requiredAssets img/lights/the_light_name
@@ -339,11 +339,11 @@ halogen: {               // This is the light name, must be lowercase. The name 
 Template 2:
 How a flashlight is created. The offsets for every direction are optional - if they are the same for all directions,
 please use the offset as the template above. For lights that sync with direction, you must have 4 images for
-each direction (with the same size), each one ending with _2, _4, _6 or _8. See the flashlight images as an 
+each direction (with the same size), each one ending with _2, _4, _6 or _8. See the flashlight images as an
 example!
 
 flashlight: {
-    fileName: "flashlight", 
+    fileName: "flashlight",
     intensity: 100
     variation: 0,
     offset_x: {2: -12, 4: -72, 6: 72, 8: 16 }, // A Javascript object containing the x offset for each direction.
@@ -358,24 +358,30 @@ Since version 4.0, a new parameter can be added: cast_shadows
 It must be set to true or false (default: true)
 
 PLACE YOUR CUSTOM LIGHTS HERE: */
+laser: {               // This is the light name, must be lowercase. The name is used with the [light x] command.
+    fileName: "laser", // A String containing the name of the file in the img/lights folder.
+    intensity: 100,      // The light's intensity, an integer from 0 to 100.
+    variation: 0,        // The light's variation on intensity. A Random number from 0 to variation is added to the intensity.
+    offset_x: 0,         // Offset the light's x position in pixels, use an integer.
+    offset_y: 0          // Offset the light's y position in pixels, use an integer.
+}
 
 
 
 
 
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Custom Lights - End
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 };
 Khas.Lighting.PARAMETERS = PluginManager.parameters("KhasUltraLighting");
 Khas.Lighting.Settings.CUSTOM_BLEND_MODE = Khas.Lighting.PARAMETERS["Custom Blending"].toLowerCase() == "on";
 Khas.Lighting.Settings.TRANSFER_RESET = Khas.Lighting.PARAMETERS["Transfer Reset"].toLowerCase() == "on";
 Khas.Lighting.Settings.AUTO_BATTLE_LIGHTING = Khas.Lighting.PARAMETERS["Auto Battle Lighting"].toLowerCase() == "on";
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * PixiOutOfDate Error
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-function PixiOutOfDateError() { this.initialize.apply(this, arguments); }; 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function PixiOutOfDateError() { this.initialize.apply(this, arguments); };
 PixiOutOfDateError.prototype = Object.create(Error.prototype);
 PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
   PixiOutOfDateError.prototype.initialize = function() {
@@ -383,15 +389,15 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
     this.message = "Please update your RPG Maker MV and your project js folder in order to use Khas Advanced Graphics. It requires Pixi.js v3 or later.";
     this.stack = (new Error()).stack;
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Image Manager
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   ImageManager.loadLight = function(filename) {
     return this.loadBitmap("img/lights/", filename, 0, true);;
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Graphics
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   Graphics.kal_createRenderer = Graphics._createRenderer;
   Graphics._createRenderer = function() {
     this.kal_createRenderer();
@@ -405,7 +411,7 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
       throw new PixiOutOfDateError();
     };
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Game Map
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   Object.defineProperty(Game_Map.prototype, 'lighting', { get: function() { return this._lighting; }, });
@@ -435,7 +441,7 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
   };
   Game_Map.prototype.callKhasCommand = function(command, value1, value2) {
     switch (command) {
-    case "ambient_light": 
+    case "ambient_light":
       var switchId = Number(value2 || "");
       var target = value1;
       if (!(target.length == 6 || target.length == 8)) target = Number(target);
@@ -445,10 +451,10 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
         if (this._lighting.autoAmbientLight) this._lighting.setAmbientLight(target);
       };
       break;
-    case "region_light": 
+    case "region_light":
       this._regionTagLights[value1] = value2;
       break;
-    default: 
+    default:
       this.kal_callKhasCommand(command, value1, value2);
     };
   };
@@ -577,9 +583,9 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
       return null;
     };
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Game CharacterBase
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   Object.defineProperty(Game_CharacterBase.prototype, 'light_id', { get: function() { return this._light_id; }, });
   Object.defineProperty(Game_CharacterBase.prototype, 'light_ox', { get: function() { return this._light_ox; }, });
   Object.defineProperty(Game_CharacterBase.prototype, 'light_oy', { get: function() { return this._light_oy; }, });
@@ -625,16 +631,16 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
   Game_CharacterBase.prototype.lightHeight = function() {
     return $gameMap.getHeight(20, 20);
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Game Player
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   Game_Player.prototype.registerLight = function(lightId) {
     Game_Character.prototype.registerLight.call(this, lightId);
     if ($khasGraphics.lighting) $khasGraphics.lighting.addPlayer();
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Game Event
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   Game_Event.prototype.kal_khasExtendSetup = Game_Event.prototype.khasExtendSetup;
   Game_Event.prototype.kal_callKhasCommand = Game_Event.prototype.callKhasCommand;
   Game_Event.prototype.khasExtendSetup = function() {
@@ -643,24 +649,24 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
   };
   Game_Event.prototype.callKhasCommand = function(command, value1, value2) {
     switch (command) {
-    case "light": 
+    case "light":
       this.setLight(value1);
       break;
-    case "light_offset": 
+    case "light_offset":
       this._light_ox = Number(value1);
       this._light_oy = Number(value2);
       break;
-    case "light_size": 
+    case "light_size":
       this._light_size = Number(value1);
       break;
-    case "smooth_light": 
+    case "smooth_light":
       this.setLight(value1, Number(value2));
       break;
-    case "light_shadows": 
+    case "light_shadows":
       if (value1.toLowerCase() == "on") this._cast_shadows = true;
       if (value1.toLowerCase() == "off") this._cast_shadows = false;
       break;
-    default: 
+    default:
       this.kal_callKhasCommand(command, value1, value2);
     };
   };
@@ -668,41 +674,41 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
     Game_Character.prototype.registerLight.call(this, lightId);
     if ($khasGraphics.lighting) $khasGraphics.lighting.addEvent(this);
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Game Interpreter
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   Game_Interpreter.prototype.kal_pluginCommand = Game_Interpreter.prototype.pluginCommand;
   Game_Interpreter.prototype.pluginCommand = function(command, args) {
     if (!(command)) return;
     args = args || [];
     switch (command.toLowerCase()) {
-    case "lighting": 
+    case "lighting":
       var state = (args[0] || "").toLowerCase();
       if (state == "on") $gameMap.lighting.enable();
       if (state == "off") $gameMap.lighting.disable();
       break;
-    case "ambientlight": 
+    case "ambientlight":
       var target = args[0] || "100";
       if (!(target.length == 6 || target.length == 8)) target = Number(target);
       var time = Number(args[1] || "0");
       $gameMap.lighting.setAmbientLight(target, time);
       //$gameMap.battleLighting.setAmbientLight(target) if Khas.Lighting.Settings.AUTO_BATTLE_AL
       break;
-    case "autoambientlight": 
+    case "autoambientlight":
       var state =(args[0] || "").toLowerCase();
       if (state == "on") $gameMap.lighting.autoAmbientLight = true;
       if (state == "off") $gameMap.lighting.autoAmbientLight = false;
       break;
-    case "saveambientlight": 
+    case "saveambientlight":
       var stateName = args[0] || "";
       $gameMap.lighting.saveState(stateName);
       break;
-    case "loadambientlight": 
+    case "loadambientlight":
       var stateName = args[0] || "";
       var time = Number(args[1] || "0");
       $gameMap.lighting.loadState(stateName, time);
       break;
-    case "playerlantern": 
+    case "playerlantern":
       var lightId = args[0] || "";
       if (lightId.toLowerCase() == "off") {
         $gamePlayer.setLight(null) ;
@@ -710,32 +716,32 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
         $gamePlayer.setLight(lightId);
       };
       break;
-    case "setactorlight": 
+    case "setactorlight":
       var actorId = Number(args[0] || "0");
       var lightId = args[1] || null;
       var ox = Number(args[2] || "0");
       var oy = Number(args[3] || "0")      ;
       if (actorId && lightId) $gameMap.battleLighting.setBattlerLight("actor", actorId, lightId, ox, oy);
       break;
-    case "setenemylight": 
+    case "setenemylight":
       var enemyId = Number(args[0] || "0");
       var lightId = args[1] || null;
       var ox = Number(args[2] || "0");
       var oy = Number(args[3] || "0")   ;
       if (enemyId && lightId) $gameMap.battleLighting.setBattlerLight("enemy", enemyId, lightId, ox, oy);
       break;
-    case "battlelighting": 
+    case "battlelighting":
       var battleCommand = args[0] || "";
       switch (battleCommand.toLowerCase()) {
-      case "reset": 
+      case "reset":
         $gameMap.battleLighting.resetLighting();
         break;
-      case "ambientlight": 
+      case "ambientlight":
         var target = args[1] || "100";
         if (!(target.length == 6 || target.length == 8)) target = Number(target);
         $gameMap.battleLighting.setAmbientLight(target);
         break;
-      case "addlight": 
+      case "addlight":
         var lightId = args[1] || "";
         var x = Number(args[2] || "");
         var y = Number(args[3] || "");
@@ -747,14 +753,14 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
         break;
       };
       break;
-    default: 
+    default:
       this.kal_pluginCommand(command, args);
     };
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Game Lighting
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-function Game_Lighting() { this.initialize.apply(this, arguments); }; 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function Game_Lighting() { this.initialize.apply(this, arguments); };
   Object.defineProperty(Game_Lighting.prototype, 'enabled', { get: function() { return this._enabled; }, });
   Object.defineProperty(Game_Lighting.prototype, 'ambientLight', { get: function() { return this._ambientLight; }, });
   Object.defineProperty(Game_Lighting.prototype, 'lightPoints', { get: function() { return this._lightPoints; }, });
@@ -855,10 +861,10 @@ function Game_Lighting() { this.initialize.apply(this, arguments); };
       oy: offset_y
     };
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Game LightPoint
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-function Game_LightPoint() { this.initialize.apply(this, arguments); }; 
+function Game_LightPoint() { this.initialize.apply(this, arguments); };
   Object.defineProperty(Game_LightPoint.prototype, 'light_id', { get: function() { return this._light_id; }, });
   Object.defineProperty(Game_LightPoint.prototype, 'light_ox', { get: function() { return this._light_ox; }, });
   Object.defineProperty(Game_LightPoint.prototype, 'light_oy', { get: function() { return this._light_oy; }, });
@@ -885,10 +891,10 @@ function Game_LightPoint() { this.initialize.apply(this, arguments); };
   Game_LightPoint.prototype.khasType = function() {
     return "point";
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Game LightTile
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-function Game_LightTile() { this.initialize.apply(this, arguments); }; 
+function Game_LightTile() { this.initialize.apply(this, arguments); };
   Object.defineProperty(Game_LightTile.prototype, 'light_id', { get: function() { return this._light_id; }, });
   Object.defineProperty(Game_LightTile.prototype, 'light_ox', { get: function() { return this._light_ox; }, });
   Object.defineProperty(Game_LightTile.prototype, 'light_oy', { get: function() { return this._light_oy; }, });
@@ -920,10 +926,10 @@ function Game_LightTile() { this.initialize.apply(this, arguments); };
   Game_LightTile.prototype.khasType = function() {
     return "tile";
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Game LightBattler
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-function Game_LightBattler() { this.initialize.apply(this, arguments); }; 
+function Game_LightBattler() { this.initialize.apply(this, arguments); };
   Object.defineProperty(Game_LightBattler.prototype, 'light_id', { get: function() { return this._light_id; }, });
   Object.defineProperty(Game_LightBattler.prototype, 'light_ox', { get: function() { return this._light_ox; }, });
   Object.defineProperty(Game_LightBattler.prototype, 'light_oy', { get: function() { return this._light_oy; }, });
@@ -991,10 +997,10 @@ function Game_LightBattler() { this.initialize.apply(this, arguments); };
   Game_LightBattler.prototype.khasType = function() {
     return "battler";
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Sprite Light
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-function Sprite_Light() { this.initialize.apply(this, arguments); }; 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function Sprite_Light() { this.initialize.apply(this, arguments); };
 Sprite_Light.prototype = Object.create(Khas_Sprite.prototype);
 Sprite_Light.prototype.constructor = Sprite_Light;
   Object.defineProperty(Sprite_Light.prototype, 'id', { get: function() { return this._id; }, });
@@ -1223,7 +1229,7 @@ Sprite_Light.prototype.constructor = Sprite_Light;
     this._shadow.endCasting();
     Graphics._renderer.render(this._light, this._renderedLight);
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Spriteset Battle
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   Spriteset_Battle.prototype.kal_initializeKhasGraphics = Spriteset_Battle.prototype.initializeKhasGraphics;
@@ -1251,10 +1257,10 @@ Sprite_Light.prototype.constructor = Sprite_Light;
     this.kal_update();
     $gameMap.battleLighting.updateLightBattlers();
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Khas Ambient Light
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-function Khas_AmbientLight() { this.initialize.apply(this, arguments); }; 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function Khas_AmbientLight() { this.initialize.apply(this, arguments); };
   Object.defineProperty(Khas_AmbientLight.prototype, 'intensity', { get: function() { return this._intensity; }, });
   Object.defineProperty(Khas_AmbientLight.prototype, 'red', { get: function() { return this._red; }, });
   Object.defineProperty(Khas_AmbientLight.prototype, 'green', { get: function() { return this._green; }, });
@@ -1311,9 +1317,9 @@ function Khas_AmbientLight() { this.initialize.apply(this, arguments); };
     this._green = this._tg;
     this._blue = this._tb;
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Khas Graphics
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   Object.defineProperty(Khas_Graphics.prototype, 'lighting', { get: function() { return this._lighting; }, });
   Khas_Graphics.prototype.kal_loadResources = Khas_Graphics.prototype.loadResources;
   Khas_Graphics.prototype.kal_newScene = Khas_Graphics.prototype.newScene;
@@ -1340,12 +1346,12 @@ function Khas_AmbientLight() { this.initialize.apply(this, arguments); };
   Khas_Graphics.prototype.newScene = function() {
     this.kal_newScene();
     switch (this._spriteset.khasType()) {
-    case "map": 
+    case "map":
       $gameMap.battleLighting.clearLightBattlers();
       this._lighting = new Khas_Lighting($gameMap.lighting);
       this._lighting.addMapLights();
       break;
-    case "battle": 
+    case "battle":
       if (Khas.Lighting.Settings.AUTO_BATTLE_LIGHTING) $gameMap.battleLighting.copyAmbientLight($gameMap.lighting);
       this._lighting = new Khas_Lighting($gameMap.battleLighting);
       this._lighting.addLightPoints();
@@ -1361,10 +1367,10 @@ function Khas_AmbientLight() { this.initialize.apply(this, arguments); };
     this._lighting = null;
     this.kal_clearScene();
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Khas Lighting
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-function Khas_Lighting() { this.initialize.apply(this, arguments); }; 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function Khas_Lighting() { this.initialize.apply(this, arguments); };
   Object.defineProperty(Khas_Lighting.prototype, 'layerSprite', { get: function() { return this._layerSprite; }, });
   Khas_Lighting.prototype.initialize = function(lightingState) {
     this._lights = [];
@@ -1403,10 +1409,10 @@ function Khas_Lighting() { this.initialize.apply(this, arguments); };
   };
   Khas_Lighting.prototype.deleteLight = function(spriteLight) {
     switch (spriteLight.character.khasType()) {
-    case "event": 
+    case "event":
       this._events.remove(spriteLight.character.eventId());
       break;
-    case "player": 
+    case "player":
       this._player = false;
       break;
     };
@@ -1446,11 +1452,11 @@ function Khas_Lighting() { this.initialize.apply(this, arguments); };
       this.addCharacter(points[i]);
     };
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Khas Filters
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Khas.Filters.Source.FRAGMENT_LIGHTING = "\n  varying vec2 vTextureCoord;\n\n  uniform vec2 screenResolution;\n  uniform sampler2D uSampler;\n  uniform vec4 ambientLight;\n\n  void main(void) {\n    vec4 light = texture2D(uSampler, vTextureCoord);\n    gl_FragColor = light + ambientLight;\n  }\n";
-function Khas_LightingFilter() { this.initialize.apply(this, arguments); }; 
+function Khas_LightingFilter() { this.initialize.apply(this, arguments); };
 Khas_LightingFilter.prototype = Object.create(Khas_Filter.prototype);
 Khas_LightingFilter.prototype.constructor = Khas_LightingFilter;
   Khas_LightingFilter.prototype.initialize = function() {
@@ -1469,10 +1475,10 @@ Khas_LightingFilter.prototype.constructor = Khas_LightingFilter;
     this.uniforms.ambientLight[2] = ambientLight.blue * ambientLight.intensity;
     this.uniforms.ambientLight[3] = ambientLight.intensity;
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Khas Shadow
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-function Khas_Shadow() { this.initialize.apply(this, arguments); }; 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function Khas_Shadow() { this.initialize.apply(this, arguments); };
   Object.defineProperty(Khas_Shadow.prototype, 'mask', { get: function() { return this._mask; }, });
   Khas_Shadow.prototype.initialize = function(width, height) {
     this._mask = new PIXI.Graphics();
@@ -1543,10 +1549,10 @@ function Khas_Shadow() { this.initialize.apply(this, arguments); };
     };
     return [bx, by];
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * Khas ShadowCaster
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-function Khas_ShadowCaster() { this.initialize.apply(this, arguments); }; 
+function Khas_ShadowCaster() { this.initialize.apply(this, arguments); };
   Khas_ShadowCaster.prototype.initialize = function(x1, y1, x2, y2) {
     this._x1 = x1;
     this._y1 = y1;
@@ -1570,7 +1576,7 @@ function Khas_ShadowCaster() { this.initialize.apply(this, arguments); };
   Khas_ShadowCaster.prototype.screenY = function(y) {
     return Math.round($gameMap.adjustY(y) * $gameMap.tileHeight());
   };
-function Khas_SCFT() { this.initialize.apply(this, arguments); }; 
+function Khas_SCFT() { this.initialize.apply(this, arguments); };
   Khas_SCFT.prototype.initialize = function(x, y, h) {
     this._x1 = x;
     this._x2 = x + 1;
@@ -1592,7 +1598,7 @@ function Khas_SCFT() { this.initialize.apply(this, arguments); };
   Khas_SCFT.prototype.screenY = function(y) {
     return Math.round($gameMap.adjustY(y) * $gameMap.tileHeight());
   };
-function Khas_SCFB() { this.initialize.apply(this, arguments); }; 
+function Khas_SCFB() { this.initialize.apply(this, arguments); };
   Khas_SCFB.prototype.initialize = function(x, y, h) {
     this._x1 = x;
     this._x2 = x + 1;
@@ -1614,7 +1620,7 @@ function Khas_SCFB() { this.initialize.apply(this, arguments); };
   Khas_SCFB.prototype.screenY = function(y) {
     return Math.round($gameMap.adjustY(y) * $gameMap.tileHeight());
   };
-function Khas_SCFL() { this.initialize.apply(this, arguments); }; 
+function Khas_SCFL() { this.initialize.apply(this, arguments); };
   Khas_SCFL.prototype.initialize = function(x, y, h) {
     this._x = x;
     this._y1 = y;
@@ -1636,7 +1642,7 @@ function Khas_SCFL() { this.initialize.apply(this, arguments); };
   Khas_SCFL.prototype.screenY = function(y) {
     return Math.round($gameMap.adjustY(y) * $gameMap.tileHeight());
   };
-function Khas_SCFR() { this.initialize.apply(this, arguments); }; 
+function Khas_SCFR() { this.initialize.apply(this, arguments); };
   Khas_SCFR.prototype.initialize = function(x, y, h) {
     this._x = x + 1;
     this._y1 = y;
@@ -1658,7 +1664,7 @@ function Khas_SCFR() { this.initialize.apply(this, arguments); };
   Khas_SCFR.prototype.screenY = function(y) {
     return Math.round($gameMap.adjustY(y) * $gameMap.tileHeight());
   };
-function Khas_SCWL() { this.initialize.apply(this, arguments); }; 
+function Khas_SCWL() { this.initialize.apply(this, arguments); };
   Khas_SCWL.prototype.initialize = function(x, y1, y2) {
     this._x = x;
     this._y1 = y1;
@@ -1680,7 +1686,7 @@ function Khas_SCWL() { this.initialize.apply(this, arguments); };
   Khas_SCWL.prototype.screenY = function(y) {
     return Math.round($gameMap.adjustY(y) * $gameMap.tileHeight());
   };
-function Khas_SCWR() { this.initialize.apply(this, arguments); }; 
+function Khas_SCWR() { this.initialize.apply(this, arguments); };
   Khas_SCWR.prototype.initialize = function(x, y1, y2) {
     this._x = x + 1;
     this._y1 = y1;
@@ -1702,7 +1708,7 @@ function Khas_SCWR() { this.initialize.apply(this, arguments); };
   Khas_SCWR.prototype.screenY = function(y) {
     return Math.round($gameMap.adjustY(y) * $gameMap.tileHeight());
   };
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // * ShaderTilemap
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   ShaderTilemap.prototype._drawShadow = function(layer, shadowBits, dx, dy) {

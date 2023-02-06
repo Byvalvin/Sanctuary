@@ -13,7 +13,7 @@ null,
 {"id":11,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":12,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":13,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":14,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":14,"list":[{"code":355,"indent":0,"parameters":["Galv.PROJ.quickDir(1);"]},{"code":230,"indent":0,"parameters":[1]},{"code":0,"indent":0,"parameters":[]}],"name":"Stunner","switchId":1,"trigger":0},
 {"id":15,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":16,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+{"id":16,"list":[{"code":205,"indent":0,"parameters":[0,{"list":[{"code":15,"parameters":[300],"indent":null},{"code":0}],"repeat":false,"skippable":false,"wait":true}]},{"code":505,"indent":0,"parameters":[{"code":15,"parameters":[300],"indent":null}]},{"code":108,"indent":0,"parameters":["[light flashlight]"]},{"code":408,"indent":0,"parameters":["[light_size 0]"]},{"code":121,"indent":0,"parameters":[10,10,1]},{"code":0,"indent":0,"parameters":[]}],"name":"NpcStun","switchId":10,"trigger":2}
 ]
