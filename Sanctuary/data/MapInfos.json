@@ -10,5 +10,5 @@ null,
 {"id":8,"expanded":true,"name":"Audio/Dialoge Test","order":7,"parentId":7,"scrollX":722,"scrollY":497.3333333333333},
 {"id":9,"expanded":false,"name":"ingame UI test","order":8,"parentId":0,"scrollX":612,"scrollY":384.6666666666667},
 {"id":10,"expanded":false,"name":"new hub","order":9,"parentId":0,"scrollX":724,"scrollY":503.3333333333333},
-{"id":11,"expanded":false,"name":"level 1","order":10,"parentId":0,"scrollX":832,"scrollY":640}
+{"id":11,"expanded":false,"name":"level 1","order":10,"parentId":0,"scrollX":724,"scrollY":503.3333333333333}
 ]
