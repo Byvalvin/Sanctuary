@@ -14,6 +14,6 @@ null,
 {"id":12,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":13,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":14,"list":[{"code":111,"indent":0,"parameters":[0,7,0]},{"code":111,"indent":1,"parameters":[1,13,0,0,3]},{"code":355,"indent":2,"parameters":["Galv.PROJ.quickDir(1);"]},{"code":122,"indent":2,"parameters":[13,13,2,0,1]},{"code":230,"indent":2,"parameters":[1]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"StunGun","switchId":1,"trigger":0},
-{"id":15,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":15,"list":[{"code":121,"indent":0,"parameters":[7,7,1]},{"code":0,"indent":0,"parameters":[]}],"name":"GunGone","switchId":1,"trigger":0},
 {"id":16,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
 ]
