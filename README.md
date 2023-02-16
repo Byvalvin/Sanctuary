@@ -1,8 +1,6 @@
 # Sanctuary
 Contains files for the CMPUT 250 project Sanctuary by Pawsible Studios.
 
-TEST DISCORD NOTIFACITONS
-
 ## Team Members
 - Alan Ogaranko
 - Ashley Na
