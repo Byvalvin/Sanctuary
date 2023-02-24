@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Med Bay",
+        "image": "medbayMap",
+        "x": 572,
+        "y": 254,
+        "textPosition": "bottom",
+        "event": 2
+    }, {
+        "id": 2,
+        "name": "Robotics Department",
+        "image": "departmentMap",
+        "x": 297,
+        "y": 430,
+        "textPosition": "bottom",
+        "event": 3
+    }, {
+        "id": 3,
+        "name": "Storage",
+        "image": "storageMap",
+        "x": 54,
+        "y": 253,
+        "textPosition": "bottom",
+        "event": 4
+    }, {
+        "id": 4,
+        "name": "Bridge",
+        "image": "bridgeMap",
+        "x": 287,
+        "y": 78,
+        "textPosition": "top",
+        "event": 5
+    }
+]
