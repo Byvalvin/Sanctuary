@@ -1373,12 +1373,14 @@ function Khas_AmbientLight() { this.initialize.apply(this, arguments); };
 function Khas_Lighting() { this.initialize.apply(this, arguments); };
   Object.defineProperty(Khas_Lighting.prototype, 'layerSprite', { get: function() { return this._layerSprite; }, });
   Khas_Lighting.prototype.initialize = function(lightingState) {
+
     this._lights = [];
     this._events = [];
     this._player = false;
     this._lightingState = lightingState;
     this._enabled = this._lightingState.enabled;
     this._layer = new PIXI.Container();
+		this._layer.visible = false;
     this._lightMap = new PIXI.RenderTexture.create(Graphics.width, Graphics.height);
     this._filter = Khas.Filters.LIGHTING;
     this._filter.setResolution(Graphics.width, Graphics.height);
@@ -1400,8 +1402,10 @@ function Khas_Lighting() { this.initialize.apply(this, arguments); };
         i -= 1;
       };
     };
+
     this._filter.setAmbientLight(this._lightingState.ambientLight);
     Graphics._renderer.render(this._layer, this._lightMap);
+		this._layer.visible = true;
   };
   Khas_Lighting.prototype.addLight = function(spriteLight) {
     this._lights.push(spriteLight);
