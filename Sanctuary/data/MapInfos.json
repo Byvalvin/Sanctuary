@@ -14,7 +14,7 @@ null,
 {"id":12,"expanded":true,"name":"Hub","order":13,"parentId":14,"scrollX":1088.7272727272727,"scrollY":605.4545454545455},
 {"id":13,"expanded":true,"name":"Stunned","order":11,"parentId":0,"scrollX":1088.7272727272727,"scrollY":605.4545454545455},
 {"id":14,"expanded":true,"name":"Ashley's Map Creations","order":12,"parentId":0,"scrollX":1139,"scrollY":641},
-{"id":15,"expanded":false,"name":"Vertical Slice","order":17,"parentId":16,"scrollX":1088.7272727272727,"scrollY":605.4545454545455},
-{"id":16,"expanded":true,"name":"LVL 1 (MEDBAY)","order":16,"parentId":0,"scrollX":1088.7272727272727,"scrollY":605.4545454545455},
+{"id":15,"expanded":false,"name":"Vertical Slice","order":17,"parentId":16,"scrollX":728.6666666666666,"scrollY":569.3333333333334},
+{"id":16,"expanded":true,"name":"LVL 1 (MEDBAY)","order":16,"parentId":0,"scrollX":711.3333333333334,"scrollY":569.3333333333334},
 {"id":17,"expanded":false,"name":"HubMap","order":15,"parentId":14,"scrollX":1088.7272727272727,"scrollY":605.4545454545455}
 ]
