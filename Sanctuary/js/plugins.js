@@ -22,5 +22,6 @@ var $plugins =
 {"name":"AG_CharacterNoisySteps","status":true,"description":"Characters will produce stepping sound effects when they move on the map terrain.","parameters":{"Player Step SE Volume":"5","Events Step SE Volume":"5","Step SE Pitch":"100","Pitch Variance":"5","Pan Variance":"40","Disable Player Noisy Steps Switch ID":"0","Disable Events Noisy Steps Switch ID":"0","Terrain Tag 0 SE":"","Terrain Tag 1 SE":"Move1","Terrain Tag 2 SE":"Move2","Terrain Tag 3 SE":"carpet","Terrain Tag 4 SE":"grass","Terrain Tag 5 SE":"Move1","Terrain Tag 6 SE":"wood","Terrain Tag 7 SE":"dirt","Size Tag Pitch Increment":"40","Special Tag 1 SE":"robot","Special Tag 2 SE":"wheels","Special Tag 3 SE":"claws","Special Tag 4 SE":"chains","Special Tag 5 SE":"dragged\r"}},
 {"name":"DMY_SkipVideo","status":true,"description":"Skip video on key press","parameters":{"Disabler switch":"0"}},
 {"name":"InteractiveMap","status":true,"description":"Pivert Interactive map.","parameters":{"Images directory":"img/map","Font size":"16"}},
-{"name":"TouchInputUpdate","status":true,"description":"Pivert Touch Input Update.","parameters":{}}
+{"name":"TouchInputUpdate","status":true,"description":"Pivert Touch Input Update.","parameters":{}},
+{"name":"removefrommenu","status":true,"description":"","parameters":{}}
 ];
