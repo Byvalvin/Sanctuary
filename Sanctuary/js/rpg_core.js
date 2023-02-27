@@ -3014,9 +3014,17 @@ Input.keyMapper = {
     39: 'right',    // right arrow
     40: 'down',     // down arrow
     45: 'escape',   // insert
-    81: 'pageup',   // Q
-    87: 'pagedown', // W
-    88: 'escape',   // X
+
+    //adding alternative controls for WASD
+    82: 'up',       // r
+    68: 'left',     // d
+    71: 'right',    // g
+    70: 'down',     // f
+
+
+    //81: 'pageup',   // Q
+    //87: 'pagedown', // W
+    //88: 'escape',   // X
     90: 'ok',       // Z
     96: 'escape',   // numpad 0
     98: 'down',     // numpad 2
@@ -3024,6 +3032,8 @@ Input.keyMapper = {
     102: 'right',   // numpad 6
     104: 'up',      // numpad 8
     120: 'debug'    // F9
+
+
 };
 
 /**
