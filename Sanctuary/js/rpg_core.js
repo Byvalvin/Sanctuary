@@ -3002,7 +3002,7 @@ Input.keyRepeatInterval = 6;
 Input.keyMapper = {
     9: 'tab',       // tab
     13: 'ok',       // enter
-    16: 'shift',    // shift
+    //16: 'shift',    // shift
     17: 'control',  // control
     18: 'control',  // alt
     27: 'escape',   // escape
@@ -3016,24 +3016,13 @@ Input.keyMapper = {
     45: 'escape',   // insert
 
     //adding alternative controls for WASD
-    82: 'up',       // r
-    68: 'left',     // d
-    71: 'right',    // g
-    70: 'down',     // f
-
-
-    //81: 'pageup',   // Q
-    //87: 'pagedown', // W
-    //88: 'escape',   // X
+	65: 'left',     // a
+    68: 'right',    // s
+	83: 'down',     // d
+    87: 'up',       // w
     90: 'ok',       // Z
     96: 'escape',   // numpad 0
-    98: 'down',     // numpad 2
-    100: 'left',    // numpad 4
-    102: 'right',   // numpad 6
-    104: 'up',      // numpad 8
     120: 'debug'    // F9
-
-
 };
 
 /**
