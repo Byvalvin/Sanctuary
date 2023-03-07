@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"expanded":true,"name":"LVL 2 (ROBOTICS)","order":8,"parentId":0,"scrollX":802.5,"scrollY":585.75},
-{"id":2,"expanded":false,"name":"LVL 3 (STORAGE_FACILITY)","order":10,"parentId":0,"scrollX":904,"scrollY":673.3333333333334},
+{"id":2,"expanded":false,"name":"LVL 3 (STORAGE_FACILITY)","order":10,"parentId":0,"scrollX":1228.5,"scrollY":672},
 {"id":3,"expanded":true,"name":"Settings","order":11,"parentId":0,"scrollX":1092,"scrollY":597.3333333333334},
 {"id":4,"expanded":true,"name":"Bridge","order":3,"parentId":14,"scrollX":1092,"scrollY":597.3333333333334},
 {"id":5,"expanded":false,"name":"difficulty","order":12,"parentId":3,"scrollX":1092,"scrollY":597.3333333333334},
