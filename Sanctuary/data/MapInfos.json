@@ -8,32 +8,14 @@ null,
 {"id":6,"expanded":false,"name":"LVL 3 map 2","order":11,"parentId":2,"scrollX":1228.5,"scrollY":672},
 null,
 null,
-<<<<<<< Updated upstream
-{"id":9,"expanded":true,"name":"LVL 2 (ROBOTICS)","order":8,"parentId":0,"scrollX":1216.5,"scrollY":1008},
-=======
-{"id":9,"expanded":true,"name":"LVL 2 (ROBOTICS)","order":8,"parentId":0,"scrollX":1216.5,"scrollY":850.5},
->>>>>>> Stashed changes
+{"id":9,"expanded":true,"name":"LVL 2 (ROBOTICS)","order":8,"parentId":0,"scrollX":1216.5,"scrollY":730.5},
 {"id":10,"expanded":true,"name":"LVL 2 map 2","order":9,"parentId":9,"scrollX":1228.5,"scrollY":672},
 null,
 {"id":12,"expanded":true,"name":"Hub","order":2,"parentId":14,"scrollX":832,"scrollY":640},
 null,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-{"id":14,"expanded":true,"name":"Ashley's Map Creations","order":1,"parentId":0,"scrollX":1386.8571428571427,"scrollY":750.8571428571428},
-{"id":15,"expanded":false,"name":"LVL 1 map 2","order":7,"parentId":16,"scrollX":1092,"scrollY":597.3333333333334},
-{"id":16,"expanded":true,"name":"LVL 1 (MEDBAY)","order":6,"parentId":0,"scrollX":607,"scrollY":827},
-{"id":17,"expanded":false,"name":"HubMap","order":5,"parentId":14,"scrollX":615,"scrollY":381},
-{"id":18,"expanded":false,"name":"IntroCutscene","order":4,"parentId":4,"scrollX":615,"scrollY":381}
-=======
-=======
->>>>>>> Stashed changes
 {"id":14,"expanded":true,"name":"Ashley's Map Creations","order":1,"parentId":0,"scrollX":1228.5,"scrollY":672},
 {"id":15,"expanded":false,"name":"LVL 1 map 2","order":7,"parentId":16,"scrollX":1228.5,"scrollY":672},
 {"id":16,"expanded":true,"name":"LVL 1 (MEDBAY)","order":6,"parentId":0,"scrollX":1228.5,"scrollY":672},
 {"id":17,"expanded":false,"name":"HubMap","order":5,"parentId":14,"scrollX":1228.5,"scrollY":672},
 {"id":18,"expanded":false,"name":"IntroCutscene","order":4,"parentId":4,"scrollX":1228.5,"scrollY":672}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 ]
