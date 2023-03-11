@@ -971,7 +971,8 @@ Scene_Menu.prototype.create = function() {
     Scene_MenuBase.prototype.create.call(this);
     this.createCommandWindow();
     this.createGoldWindow();
-    this.createStatusWindow();
+    this.createStatusWindow()
+	this.createControlsWindow(); // new 
 };
 
 Scene_Menu.prototype.start = function() {
@@ -1003,6 +1004,23 @@ Scene_Menu.prototype.createStatusWindow = function() {
     this._statusWindow = new Window_MenuStatus(this._commandWindow.width, 0);
     this._statusWindow.reserveFaceImages();
     this.addWindow(this._statusWindow);
+};
+
+// Nikhil Adding menu stuff here
+Scene_Menu.prototype.createControlsWindow = function() {
+    var x = 0;
+    var y = 324;
+    var width = 420; // Change this to the desired width
+    var height = 300; // Change this to the desired height
+    var controlsWindow = new Window_Base(x, y, width, height);
+    controlsWindow.drawText("Controls:", 0, 0, Graphics.boxWidth, "left");
+    controlsWindow.drawText("- Movement: Arrow keys/WASD", 0, 36, Graphics.boxWidth, "left");
+    controlsWindow.drawText("- Confirm/Interact: Enter", 0, 72, Graphics.boxWidth, "left");
+	controlsWindow.drawText("- Pause/Resume: ESC", 0, 108, Graphics.boxWidth, "left");
+    controlsWindow.drawText("- Shoot: H", 0, 140, Graphics.boxWidth, "left");
+	controlsWindow.drawText("- Dash: Shift", 0, 172, Graphics.boxWidth, "left");
+	controlsWindow.drawText("- Clock: Y", 0, 204, Graphics.boxWidth, "left");
+    this.addWindow(controlsWindow);
 };
 
 Scene_Menu.prototype.commandItem = function() {
