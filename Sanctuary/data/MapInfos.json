@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"expanded":false,"name":"L3: Control Room","order":14,"parentId":6,"scrollX":809,"scrollY":438},
+{"id":1,"expanded":false,"name":"L3: Control Room","order":14,"parentId":6,"scrollX":1088.7272727272727,"scrollY":605.4545454545455},
 {"id":2,"expanded":true,"name":"LVL 3 (STORAGE_FACILITY)","order":12,"parentId":0,"scrollX":1088.7272727272727,"scrollY":605.4545454545455},
 {"id":3,"expanded":true,"name":"Settings","order":15,"parentId":0,"scrollX":832,"scrollY":640},
 {"id":4,"expanded":true,"name":"Bridge","order":3,"parentId":14,"scrollX":809,"scrollY":438},
