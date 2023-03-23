@@ -6260,7 +6260,8 @@ Game_CharacterBase.prototype.initMembers = function() {
     this._y = 0;
     this._realX = 0;
     this._realY = 0;
-    this._moveSpeed = 4;
+	// CHANGING PLAYER SPEED HERE
+    this._moveSpeed = 4.18;
     this._moveFrequency = 6;
     this._opacity = 255;
     this._blendMode = 0;
