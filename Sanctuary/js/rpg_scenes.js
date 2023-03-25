@@ -1601,8 +1601,20 @@ Scene_Options.prototype.constructor = Scene_Options;
 
 Scene_Options.prototype.initialize = function() {
     Scene_MenuBase.prototype.initialize.call(this);
+	// new 
+	//this._level1Option = {symbol: 'level_1', name: 'Level 1', callback: this.commandLevel1.bind(this)};
 };
 
+// new
+/* 
+Scene_Options.prototype.commandLevel1 = function() {
+    var 0035 = // the ID number of the variable you want to change
+    var true = // the new value you want to set for the variable
+    $gameSwitches.setValue(variableId, newValue);
+    this._level1Option.enabled = false;
+    this._commandWindow.refresh();
+};
+*/
 Scene_Options.prototype.create = function() {
     Scene_MenuBase.prototype.create.call(this);
     this.createOptionsWindow();
