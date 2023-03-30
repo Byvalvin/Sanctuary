@@ -1017,9 +1017,9 @@ Scene_Menu.prototype.createControlsWindow = function() {
     controlsWindow.drawText("- Movement: Arrow keys/WASD", 0, 36, Graphics.boxWidth, "left");
     controlsWindow.drawText("- Confirm/Interact: Enter", 0, 72, Graphics.boxWidth, "left");
 	controlsWindow.drawText("- Pause/Resume: ESC", 0, 108, Graphics.boxWidth, "left");
-    controlsWindow.drawText("- Shoot: H", 0, 140, Graphics.boxWidth, "left");
-	controlsWindow.drawText("- Dash: Shift", 0, 172, Graphics.boxWidth, "left");
-	controlsWindow.drawText("- Clock: Y", 0, 204, Graphics.boxWidth, "left");
+    controlsWindow.drawText("- Ability: Space", 0, 140, Graphics.boxWidth, "left");
+	//controlsWindow.drawText("- Dash: Shift", 0, 172, Graphics.boxWidth, "left");
+	//controlsWindow.drawText("- Clock: Y", 0, 204, Graphics.boxWidth, "left");
     this.addWindow(controlsWindow);
 };
 
