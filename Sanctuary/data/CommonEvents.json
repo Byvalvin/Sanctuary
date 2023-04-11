@@ -24,5 +24,15 @@ null,
 {"id":22,"list":[{"code":205,"indent":0,"parameters":[-1,{"list":[{"code":4,"indent":null},{"code":0}],"repeat":false,"skippable":false,"wait":true}]},{"code":505,"indent":0,"parameters":[{"code":4,"indent":null}]},{"code":0,"indent":0,"parameters":[]}],"name":"R","switchId":1,"trigger":0},
 {"id":23,"list":[{"code":205,"indent":0,"parameters":[-1,{"list":[{"code":2,"indent":null},{"code":0}],"repeat":false,"skippable":false,"wait":true}]},{"code":505,"indent":0,"parameters":[{"code":2,"indent":null}]},{"code":0,"indent":0,"parameters":[]}],"name":"D","switchId":1,"trigger":0},
 {"id":24,"list":[{"code":205,"indent":0,"parameters":[-1,{"list":[{"code":1,"indent":null},{"code":0}],"repeat":false,"skippable":false,"wait":true}]},{"code":505,"indent":0,"parameters":[{"code":1,"indent":null}]},{"code":0,"indent":0,"parameters":[]}],"name":"F","switchId":1,"trigger":0},
-{"id":25,"list":[{"code":205,"indent":0,"parameters":[-1,{"list":[{"code":3,"indent":null},{"code":0}],"repeat":false,"skippable":false,"wait":true}]},{"code":505,"indent":0,"parameters":[{"code":3,"indent":null}]},{"code":0,"indent":0,"parameters":[]}],"name":"G","switchId":1,"trigger":0}
+{"id":25,"list":[{"code":205,"indent":0,"parameters":[-1,{"list":[{"code":3,"indent":null},{"code":0}],"repeat":false,"skippable":false,"wait":true}]},{"code":505,"indent":0,"parameters":[{"code":3,"indent":null}]},{"code":0,"indent":0,"parameters":[]}],"name":"G","switchId":1,"trigger":0},
+{"id":26,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":27,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":28,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":29,"list":[{"code":355,"indent":0,"parameters":["$gameMap._interpreter.setWaitMode('message');"]},{"code":655,"indent":0,"parameters":["SceneManager._scene._messageWindow.startMessage();"]},{"code":0,"indent":0,"parameters":[]}],"name":"openText","switchId":1,"trigger":0},
+{"id":30,"list":[{"code":355,"indent":0,"parameters":["SceneManager._scene._messageWindow.terminateMessage();"]},{"code":0,"indent":0,"parameters":[]}],"name":"closeText","switchId":1,"trigger":0},
+{"id":31,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":32,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":33,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":34,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":35,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
 ]
