@@ -545,6 +545,7 @@ function QSight() {
         points.push(new Point(lw, lh));
         points.push(new Point(-lw, lh));
         */
+        //CHANGES MADE HERE
         // points.push(new Point(-QMovement.tileSize*1.5,0));
         // points.push(new Point(QMovement.tileSize*1.5,0));
         points.push(new Point(0,-0.3*QMovement.tileSize));
