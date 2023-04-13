@@ -18,5 +18,5 @@ null,
 {"id":16,"expanded":true,"name":"LVL 2 (MEDBAY)","order":8,"parentId":0,"scrollX":1638,"scrollY":896},
 {"id":17,"expanded":false,"name":"HubMap","order":7,"parentId":14,"scrollX":1638,"scrollY":896},
 {"id":18,"expanded":false,"name":"IntroCutscene","order":4,"parentId":4,"scrollX":809,"scrollY":438},
-{"id":19,"expanded":false,"name":"Difficulty Select","order":19,"parentId":3,"scrollX":832,"scrollY":640}
+{"id":19,"expanded":false,"name":"Difficulty Select","order":16,"parentId":3,"scrollX":832,"scrollY":640}
 ]
