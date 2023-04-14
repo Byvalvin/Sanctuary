@@ -1,10 +1,30 @@
-Pawsible Studios
+PAWSIBLE STUDIOS
 
-Alan Ogaranko
-Ashley Na
-Chris Xu
-Daniel Asimiakwini
-Danny Astle
-Max Zang
-Nikhil Nayyar
-EP: Dave
+Writer Alan Ogaranko
+Artist Ashley Na
+Programmer Chris Xu
+Producer Daniel Asimiakwini
+Sound Danny Astle
+Lead Designer Max Zang
+Programmer Nikhil Nayyar
+Executive Producer Dave
+
+ART PROVIDERS
+
+Karmenis
+PandaMaru
+Candacis
+Com-Sho
+
+SOUND PROVIDERS
+
+Xylon sound library
+
+PLUGIN PROVIDERS
+
+Khas Lights
+Q Plugins
+SumRndmDde
+GALV
+Eli
+DMY_SkipVideo
