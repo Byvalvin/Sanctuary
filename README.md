@@ -9,7 +9,9 @@ Contains files for the CMPUT 250 project Sanctuary by Pawsible Studios.
 - Danny Astle
 - Max Zang
 - Nikhil Nayyar
-- EP: Dave
+  
+## EP
+Dave
 
 ## How to add stuff
 1. Do a git pull to get the latest changes.
@@ -21,3 +23,10 @@ OR using GitHub desktop. This means all your work wont change what the current w
 6. Everyone can check your work from here, and GitHub will show any potential conflicts. If there is none we can merge them right away. If there are some we can check easily.
 7. Once your pull request is approved delete your branch. You won't lose your work because its all on the main branch.
 8. Repeat steps 1-7 to continue to add to the project.
+
+
+### Controls:
+Movement: Arrow keys/WASD
+Confirm/Interact: Enter
+Pause/Resume: ESC
+Ability: Space
