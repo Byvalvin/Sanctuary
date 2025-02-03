@@ -11,7 +11,7 @@ Contains files for the CMPUT 250 project Sanctuary by Pawsible Studios.
 - Nikhil Nayyar
   
 ## EP
-Dave
+Dave Goel
 
 ## How to add stuff
 1. Do a git pull to get the latest changes.
@@ -26,7 +26,7 @@ OR using GitHub desktop. This means all your work wont change what the current w
 
 
 ### Controls:
-Movement: Arrow keys/WASD
-Confirm/Interact: Enter
-Pause/Resume: ESC
-Ability: Space
+- Movement: Arrow keys/WASD
+- Confirm/Interact: Enter
+- Pause/Resume: ESC
+- Ability: Space
